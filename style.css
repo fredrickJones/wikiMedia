@@ -1,0 +1,54 @@
+/** {
+	outline: 1px solid red;
+}*/
+
+html, body {
+	height: 100%;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.clear {
+	clear: both;
+}
+
+p.right {
+	text-align: right;
+}
+
+p.left {
+	text-align: left;
+}
+
+p {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+.header, .footer, .main {
+	padding: 5%;
+}
+
+.column {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 135px;
+	float: left;
+	margin: auto;
+}
+
+.footer p.left {
+	text-align: left;
+	padding-left: 15%;
+}
+
+.footer p.right {
+	position: relative;
+	top: -39px;
+	text-align: right;
+	padding-right: 15%;
+}
